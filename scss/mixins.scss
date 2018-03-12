@@ -1,0 +1,28 @@
+@mixin clearFix{
+  &:after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+@mixin bgimage($name) {
+  $url:"../images/#{$name}.png";
+  background: url($url) no-repeat;
+}
+
+@mixin quoteimage($name) {
+  $url:"images/#{$name}.png";
+  background: url($url) no-repeat center 20px;
+}
+
+@mixin footerimage($name) {
+  $url:"images/#{$name}.png";
+  background: url($url) no-repeat left 5px;
+}
+
+
+@mixin burgerimage($name) {
+  $url:"images/#{$name}.png";
+  background: url($url) no-repeat 98% center;
+}

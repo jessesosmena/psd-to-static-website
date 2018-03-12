@@ -1,0 +1,318 @@
+.bodybox {
+    background: linear-gradient(to bottom, #fff, 0%, #bfbfbf 100%);
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+nav:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
+.image1 {
+    width: 100%;
+}
+
+.image1:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
+.first-container img {
+    width: 65px;
+    margin-bottom: 10px;
+}
+
+.first-container h4 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.first-container p {
+    font-size: 12px;
+    line-height: 2em;
+    color: #8f8f8f;
+}
+
+.border {
+    border: 1px solid gray;
+    border-color: #dcdcdc;
+}
+
+.first-container:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.color {
+    color: #66c7b1;
+}
+
+.second-container img {
+    width: 300px;
+}
+
+.second-container h6 {
+    text-align: left;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.second-container h5 {
+    text-align: left;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.second-container h3 {
+    text-align: left;
+    font-size: 11px;
+    color: #d2d2d2;
+}
+
+.second-container p {
+    text-align: left;
+    font-size: 11.5px;
+    line-height: 1.5em;
+    color: #5c5c5c;
+}
+
+.second-container:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.thumbs:after {
+    display: block;
+    content: " ";
+    clear: both;
+}
+
+.twitter-1 {
+    background: url(images/twitter1.jpg)no-repeat;
+}
+
+.twitter-2 {
+    background: url(images/twitter1.jpg)no-repeat;
+}
+
+.twitter-3 {
+    background: url(images/twitter1.jpg)no-repeat;
+}
+
+.contact {
+    background: url(images/home_03.jpg)no-repeat;
+}
+
+.about {
+    background: url(images/home_04.jpg)no-repeat;
+}
+
+.home {
+    background: url(images/home_05.jpg)no-repeat;
+}
+
+.last-container {
+    background: #202020;
+    padding-bottom: 30px;
+}
+
+.third-container {
+    border-bottom: 1px solid gray;
+    border-spacing: 20px;
+}
+
+.third-container h6 {
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
+    color: #6c6c6c;
+}
+
+.third-container p {
+    text-align: left;
+    font-size: 11px;
+    font-weight: bold;
+    color: #aaaaaa;
+    line-height: 1.7em;
+}
+
+.twitter-1 > p {
+    margin-left: 20px;
+    position: relative;
+    top: -3px;
+}
+
+.twitter-2 > p {
+    margin-left: 20px;
+    position: relative;
+    top: -3px;
+}
+
+.twitter-3 > p {
+    margin-left: 20px;
+    position: relative;
+    top: -3px;
+}
+
+.contact > p {
+    margin-left: 20px;
+    position: relative;
+    top: -3px;
+}
+
+.about > p {
+    margin-left: 20px;
+    position: relative;
+    top: -3px;
+}
+
+.home > p {
+    margin-left: 20px;
+    position: relative;
+    top: -5px;
+}
+
+.last-container:after {
+    display: block;
+    content: " ";
+    clear: both;
+}
+
+.third-container:after {
+    display: block;
+    content: " ";
+    clear: both;
+}
+
+.footer-container {
+    padding-top: 15px;
+    color: #aaaaaa;
+}
+
+.footer-container:after {
+    display: block;
+    content: " ";
+    clear: both;
+}
+
+@media screen and (max-width:991px){
+
+.third-container div:nth-child(odd){
+    display: block;
+    content: " ";
+    clear: both;
+}
+
+}
+
+@media screen and (max-width:991px){
+
+.second-container div:nth-child(2){
+    margin-top: 31px;
+}
+
+.second-container img {
+    width: 300px;
+}
+
+.second-container h6 {
+    text-align: center;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.second-container h5 {
+    text-align: center;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.second-container h3 {
+    text-align: center;
+    font-size: 11px;
+    color: #d2d2d2;
+}
+
+.second-container p {
+    text-align: center;
+    font-size: 11.5px;
+    line-height: 1.5em;
+    color: #5c5c5c;
+}
+
+.third-container div:nth-child(1){
+    margin-bottom: 20px;
+}
+
+}
+
+@media screen and (max-width:767px){
+
+.first-container img {
+    width: 75px;
+    margin-bottom: 10px;
+}
+
+.first-container h4 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.first-container p {
+    font-size: 13px;
+    line-height: 2em;
+    color: #8f8f8f;
+    padding: 0 150px;
+}
+
+.second-container h3 {
+    text-align: center;
+    font-size: 13px;
+    color: #d2d2d2;
+}
+
+.second-container p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #5c5c5c;
+}
+
+.third-container div:nth-child(1){
+    margin-bottom: 35px;
+}
+
+#responsive-1{
+    margin-bottom: 35px;
+}
+
+}
+
+@media screen and (max-width:600px){
+
+.first-container p {
+    font-size: 13px;
+    line-height: 2em;
+    color: #8f8f8f;
+    padding: 0;
+}
+
+}
+
+@media screen and (max-width:400px){
+
+.second-container img {
+    width: 200px;
+}
+
+}
