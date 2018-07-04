@@ -1,3 +1,3 @@
-# PSD to HTML/CSS, Javascript
+# PSD to HTML, CSS, Javascript
 
-#Demo: https://psdtowebsite.000webhostapp.com/
+# Demo: https://psd-to-html-css-02.000webhostapp.com/
